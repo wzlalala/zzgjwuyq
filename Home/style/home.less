@@ -1,0 +1,222 @@
+@charset "utf-8";
+@import "setting.less";
+body{
+  background: @bodyColor url("../images/bg.png") repeat;
+}
+.site-nav{
+  height:32px;
+  background: @siteNavBgColor;
+  .weather{}
+  .nav-menu{
+    width: 300px;
+    height:@siteWenuH;
+    float:right;
+    a{
+      float:right;
+      padding:0px 12px;
+      display: inline-block;
+      line-height:@siteWenuH;
+      color: @fcolor01;
+    }
+  }
+}
+.header{
+  width: 100%;
+  height:187px;
+  background: url("../images/topbg.jpg")no-repeat center top;
+  .site-logo{
+    width: 502px;
+    height:74px;
+    padding-top:70px;
+    display: inline-block;
+    h1{
+      display: inline-block;
+      img{max-height: 74px;}
+    }
+  }
+}
+.site-menu{
+  width: 100%;
+  height:@menuListH;
+  background: @themeColor;
+  .menulist{
+    height:@menuListH;
+    display: inline-block;
+    .one{
+      position: relative;
+      display: inline-block;
+      height:@menuListH;
+      line-height:@menuListH;
+      .text{
+        font-size: 16px;
+        color: @fcolor02;
+        padding:0px 20px;
+        display: inline-block;
+        height:@menuListH;
+        line-height:@menuListH;
+        transition:.5s;
+      }
+      &:hover{
+        background: @themeCurColor;
+        display: inline-block;
+        height:@menuListH;
+        line-height:@menuListH;
+        .dropMenu{
+          display: block;
+        }
+      }
+    }
+    .dropMenu{
+      position: absolute;
+      top:@menuListH;
+      left:0;
+      width: 100%;
+      display: none;
+      li{
+        display: block;
+        height:@menuListmH;
+        line-height:@menuListmH;
+      }
+      a{
+        text-align: center;
+        font-size: 15px;
+        color: @fcolor02;
+        padding:0px 20px;
+        display: block;
+        height:@menuListmH;
+        line-height:@menuListmH;
+        background: @themeCurColor;
+        &:hover{
+          background: @themeColor;
+        }
+      }
+    }
+  }
+}
+/*轮播图，政务要闻*/
+.index-column1{
+  width: 100%;
+  padding:20px 0;
+  .slideshow{
+    width: 700px;
+    height:466px;
+    display: block;
+    float:left;
+    background:#3C3C3C;
+  }
+  .columnnew{
+    width: 480px;
+    height:466px;
+    display: block;
+    float:right;
+    background:@divColor1;
+    .tabBar{
+      height:42px;
+      border-top:1px solid @borderColor2;
+      li{
+        width: 25%;
+        height:42px;
+        display: block;
+        float:left;
+        a{
+          width: 100%;
+          height:42px;
+          line-height:42px;
+          text-align: center;
+          font-size: 14px;
+          color:@fcolor04;
+          display: block;
+          background: @divColor2;
+        }
+        .cur{
+          color:@fcolor02 ;
+          background: @themeCurColor2;
+        }
+      }
+    }
+    .tabContent{
+      padding:10px 15px;
+      .box{
+        width: 100%;
+        height:394px;
+        position: relative;
+      }
+      .item{
+        padding-top: 5px;
+        border-bottom: 1px dashed @borderColor1;
+        padding-bottom: 5px;
+        .title{
+          color: @fcolor06;
+          font-size: 16px;
+          font-weight: bold;
+          line-height:28px;
+          display: block;
+          height:28px;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .time{
+          font-size: 12px;
+          line-height:24px;
+          height:24px;
+          color: @fcolor07;
+        }
+        .infos{
+          font-size: 14px;
+          line-height:24px;
+          height:24px;
+          .info{
+            color:@fcolor09;
+            width: 380px;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            display: block;
+            float:left;
+          }
+          .more{
+            color:@fcolor08;
+            width: 70px;
+            text-align: right;
+            float:right;
+          }
+        }
+      }
+      .moreBtn{
+        width: 100%;
+        height:40px;
+        background: @divColor3;
+        display: block;
+        line-height:40px;
+        text-align: center;
+        font-size: 14px;
+        color:@themeCurColor;
+        position: absolute;
+        bottom: 0;
+        transition:.4s;
+        &:hover{
+          background:@divColor4;
+        }
+      }
+    }
+  }
+}
+.index-column2{
+  width: 100%;
+  height:690px;
+  background:url("../images/bg1.jpg") no-repeat center bottom;
+}
+.index-column3{
+  width: 100%;
+  height:640px;
+}
+.ad-cross{
+  width: 100%;
+  height:120px;
+  text-align: center;
+  img{
+    max-height:120px;
+  }
+}
+
