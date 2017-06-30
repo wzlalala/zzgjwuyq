@@ -1,0 +1,53 @@
+
+@font-face {font-family: "wly";
+  src: url('iconfont.eot?t=1498807823657'); /* IE9*/
+  src: url('iconfont.eot?t=1498807823657#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1498807823657') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1498807823657') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1498807823657#wly') format('svg'); /* iOS 4.1- */
+}
+
+.wly {
+  font-family:"wly" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wly-zuojiantou:before { content: "\e615"; }
+
+.wly-shouji:before { content: "\e658"; }
+
+.wly-jiantouyou:before { content: "\e662"; }
+
+.wly-zuzhi:before { content: "\e600"; }
+
+.wly-jiaotong:before { content: "\e638"; }
+
+.wly-hangban:before { content: "\e633"; }
+
+.wly-m-developmentCourse:before { content: "\e6ac"; }
+
+.wly-intro:before { content: "\e699"; }
+
+.wly-shuangjiantouyou:before { content: "\e63d"; }
+
+.wly-dashiji:before { content: "\e645"; }
+
+.wly-express:before { content: "\e602"; }
+
+.wly-tielu:before { content: "\e607"; }
+
+.wly-guihuasheji:before { content: "\e651"; }
+
+.wly-zhengfulingdao:before { content: "\e608"; }
+
+.wly-lingdaohuodong:before { content: "\e605"; }
+
+.wly-weizhangchaxun:before { content: "\e61b"; }
+
+.wly-gonglu:before { content: "\e671"; }
+
+.wly-tianqi:before { content: "\e646"; }
+
