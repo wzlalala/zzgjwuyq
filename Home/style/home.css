@@ -323,8 +323,8 @@ body {
 }
 .index-column3 {
   width: 100%;
-  height: 640px;
-  padding-top: 20px;
+  height: 590px;
+  padding-top: 30px;
 }
 .index-column3 .new-column {
   width: 386px;
@@ -345,7 +345,7 @@ body {
 }
 .index-column3 .new-column .column-box {
   width: 100%;
-  height: 528px;
+  height: 514px;
   background: #ffffff;
 }
 .index-column3 .new-column .column-box .column-tabf {
@@ -377,6 +377,13 @@ body {
 }
 .index-column3 .new-column .column-box .column-con {
   padding: 15px;
+  height: 440px;
+}
+.index-column3 .new-column .column-box .column-con .box {
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 440px;
 }
 .index-column3 .new-column .column-box .column-con li {
   width: 100%;
