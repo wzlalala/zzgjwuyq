@@ -6,6 +6,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/slider.css">
     <link rel="stylesheet" href="style/home.css">
 </head>
 <body>
@@ -100,16 +101,22 @@
     </div>
     <div class="index-column1 clearfix">
         <div class="w1200">
-            <div class="slideshow"></div>
+            <div class="slideshow">
+                    <ul class="slideshow-bxslider">
+                        <li><img src="images/5.jpg" title="图片一图片一图片一图片一图片一"  width="700" height="466"/></li>
+                        <li><img src="images/4.jpg" title="图片二图片二图片二图片二图片二"  width="700" height="466" /></li>
+                        <li><img src="images/5.jpg" title="图片三图片三图片三图片三图片三" width="700" height="466"/></li>
+                    </ul>
+            </div>
             <div class="columnnew">
-                <ul class="tabBar">
-                    <li><a href="javascript:;" class="cur">政务要闻</a></li>
-                    <li><a href="javascript:;">公示公告</a></li>
-                    <li><a href="javascript:;">媒体聚焦</a></li>
-                    <li><a href="javascript:;">部门动态</a></li>
+                <ul class="tabBar" id="newsCenterTab">
+                    <li><a href="javascript:;" class="cur" data-index="0">政务要闻</a></li>
+                    <li><a href="javascript:;" data-index="1">公示公告</a></li>
+                    <li><a href="javascript:;" data-index="2">媒体聚焦</a></li>
+                    <li><a href="javascript:;" data-index="3">部门动态</a></li>
                 </ul>
-                <div class="tabContent">
-                    <div class="box">
+                <div class="tabContent" id="newsCenter">
+                    <div class="box" style="display: block">
                         <ul>
                             <li class="item">
                                 <a href="" class="title">宅急送集团董事长兼CEO</a>
@@ -135,6 +142,84 @@
                         </ul>
                         <a href="" class="moreBtn">更多资讯&gt;</a>
                     </div>
+                    <div class="box" style="display: none">
+                        <ul>
+                            <li class="item">
+                                <a href="" class="title">222222222222222222222222</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+
+                        </ul>
+                        <a href="" class="moreBtn">22资讯&gt;</a>
+                    </div>
+                    <div class="box" style="display: none">
+                        <ul>
+                            <li class="item">
+                                <a href="" class="title">333333333333333333333</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+
+                        </ul>
+                        <a href="" class="moreBtn">33资讯&gt;</a>
+                    </div>
+                    <div class="box" style="display: none">
+                        <ul>
+                            <li class="item">
+                                <a href="" class="title">44444444444444444444444444</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+                            <li class="item">
+                                <a href="" class="title">宅急送集团董事长兼CEO</a>
+                                <p class="time">2017-6-29 16:08</p>
+                                <p class="infos"><span class="info">5月18日上午，经开区党工委副书记、物流园区党委书记李雪生主持召开物流园区安置区二期</span><a href="" class="more">[详细]</a></p>
+                            </li>
+
+                        </ul>
+                        <a href="" class="moreBtn">44资讯&gt;</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -147,7 +232,8 @@
                 <div class="right-line"></div>
             </div>
             <div class="column-box clearfix">
-                <div class="player"></div>
+                <div class="player" id="player"></div>
+
                 <div class="article">
                     <p>郑州国际物流园区于2010年10月正式成立，2013年12月划归郑州经济技术开发区管理，规划范围为芦医庙大街以东、万三公路（规划G107新线）以西、陇海铁路线以南、郑民高速公路以北围合区域，规划面积85平方公里，主导产业为汽车及装备制造业和现代物流业。近年来，园区积极抢抓河南自贸区、郑州经开综保区、中国（郑州）跨境电子商务综合试验区“三区叠加”发展的重大机遇，按照“四港联动、多式联运”的总体思路，全力建设高效衔接航空港、铁路港及沿海港口的现代综合物流公路港，着力打造以“国际物流、区域分拨、城市配送”为主要功能的产城融合智慧物流新城，与郑州航空港、国际陆港形成“铁、公、机”联动发展、优势互补的大物流产业链，成为引领带动河南大物流发展的“三驾马车”之一。</p>
                     <p>截至2016年底，累计完成固定资产投资695亿元，年均增长47%；累计完成主营业务收入1580亿元，年均增长76%；累计引进项目141个，协议总投资1193亿元，建成投产项目49个，入区运营企业416家。园区成功获批筹建全国电子商务物流产业知名品牌创建示范区，先后被评为全省“十快”产业集聚区第一名、全省“百亿产业集群30强”第一名、省级服务业标准化试点单位……<a
@@ -194,8 +280,8 @@
                 </h3>
                 <div class="column-box">
                     <ul class="column-tabf">
-                        <li><a href="" class="cur">创建专栏</a></li>
-                        <li><a href="">党建专栏</a></li>
+                        <li><a href="javascript:;" class="cur" data-index="0">创建专栏</a></li>
+                        <li><a href="javascript:;" data-index="1">党建专栏</a></li>
                     </ul>
                     <div class="column-con">
                         <div class="box">
@@ -227,7 +313,35 @@
                             </ul>
                             <a href="" class="moreBtn">更多资讯&gt;</a>
                         </div>
-
+                        <div class="box" style="display: none;">
+                            <ul>
+                                <li>
+                                    <a href="" class="title">22222222222222222</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                            </ul>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,10 +351,10 @@
                 </h3>
                 <div class="column-box">
                     <ul class="column-tabf column-tabf4">
-                        <li><a href="" class="cur">企业动态</a></li>
-                        <li><a href="">企业名录</a></li>
-                        <li><a href="">产品名录</a></li>
-                        <li><a href="">明星企业</a></li>
+                        <li><a href="javascript:;" class="cur" data-index="0">企业动态</a></li>
+                        <li><a href="javascript:;" data-index="1">企业名录</a></li>
+                        <li><a href="javascript:;" data-index="2">产品名录</a></li>
+                        <li><a href="javascript:;" data-index="3">明星企业</a></li>
                     </ul>
                     <div class="column-con">
                         <div class="box">
@@ -272,7 +386,93 @@
                             </ul>
                             <a href="" class="moreBtn">更多资讯&gt;</a>
                         </div>
-
+                        <div class="box" style="display: none">
+                            <ul>
+                                <li>
+                                    <a href="" class="title">222222222222222222222</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                            </ul>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </div>
+                        <div class="box" style="display: none">
+                            <ul>
+                                <li>
+                                    <a href="" class="title">333333333333333333333333333333333333</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                            </ul>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </div>
+                        <div class="box" style="display: none">
+                            <ul>
+                                <li>
+                                    <a href="" class="title">444444444444444444444444444444</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                            </ul>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </div>
                     </div>
 
                 </div>
@@ -283,10 +483,10 @@
                 </h3>
                 <div class="column-box">
                     <ul class="column-tabf column-tabf4">
-                        <li><a href="" class="cur">招商动态</a></li>
-                        <li><a href="">投资指南</a></li>
-                        <li><a href="">项目介绍</a></li>
-                        <li><a href="">专业园区</a></li>
+                        <li><a href="javacrit:;" data-index="0" class="cur">招商动态</a></li>
+                        <li><a href="javacrit:;" data-index="1">投资指南</a></li>
+                        <li><a href="javacrit:;" data-index="2">项目介绍</a></li>
+                        <li><a href="javacrit:;" data-index="3">专业园区</a></li>
                     </ul>
                     <div class="column-con">
                         <div class="box">
@@ -318,7 +518,93 @@
                             </ul>
                             <a href="" class="moreBtn">更多资讯&gt;</a>
                         </div>
-
+                        <div class="box" style="display: none;">
+                            <ul>
+                                <li>
+                                    <a href="" class="title">1111111111111111席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                            </ul>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </div>
+                        <div class="box" style="display: none;">
+                            <ul>
+                                <li>
+                                    <a href="" class="title">22222222222222222222222222222222222</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                            </ul>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </div>
+                        <div class="box" style="display: none;">
+                            <ul>
+                                <li>
+                                    <a href="" class="title">4444444444444444444444444444</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                                <li>
+                                    <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                    <p class="time">2017-6-30 16:30</p>
+                                </li>
+                            </ul>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -327,9 +613,323 @@
     <div class="ad-cross">
         <img src="images/ad.jpg" alt="">
     </div>
-    <div class="index-column4"></div>
-    <div class="index-column5"></div>
-    <div class="index-column6"></div>
-    <div class="footer"></div>
+    <div class="index-column4">
+        <div class="w1200">
+            <div class="index-column-tile">
+                <div class="left-line"></div>
+                <h2 class="title">物流资讯</h2>
+                <div class="right-line"></div>
+            </div>
+            <div class="flash">
+                <div class="con">
+                    <ul>
+                        <li class="current ti1 wrap" style="width: 990px;">
+                            <h3>物流新闻</h3>
+                            <div class="show">
+                                <ul class="new-list">
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </li>
+                        <li class="ti2 wrap" style="width: 46px;">
+                            <h3>政策法规</h3>
+                            <div class="show">
+                                <ul class="new-list">
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </li>
+                        <li class="ti3 wrap" style="width: 46px;">
+                            <h3>物流信息化</h3>
+                            <div class="show">
+                                <ul class="new-list">
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </li>
+                        <li class="ti4 wrap" style="width: 46px;">
+                            <h3>物流标准化</h3>
+                            <div class="show">
+                                <ul class="new-list">
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </li>
+                        <li class="ti5 wrap" style="width: 46px;">
+                            <h3>物流标准化</h3>
+                            <div class="show">
+                                <ul class="new-list">
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="title">习近平检阅驻香港部队，官兵齐声高呼：主席好</a>
+                                        <p class="time">2017-6-30 16:30</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="moreBtn">更多资讯&gt;</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index-column5">
+        <div class="w1200">
+            <div class="index-column-tile">
+                <div class="left-line"></div>
+                <h2 class="title">物流服务</h2>
+                <div class="right-line"></div>
+            </div>
+            <ul class="serverlist">
+                <li><a href="">
+                    <i class="wly">&#xe638;</i>
+                    <span>交通服务</span>
+                </a></li>
+                <li><a href="">
+                    <i class="wly">&#xe646;</i>
+                    <span>天气服务</span>
+                </a></li>
+                <li><a href="">
+                    <i class="wly">&#xe633;</i>
+                    <span>航班查询</span>
+                </a></li>
+                <li><a href="">
+                    <i class="wly">&#xe607;</i>
+                    <span>铁路查询</span>
+                </a></li>
+                <li><a href="">
+                    <i class="wly">&#xe671;</i>
+                    <span>公路查询</span>
+                </a></li>
+                <li><a href="">
+                    <i class="wly">&#xe602;</i>
+                    <span>快递查询</span>
+                </a></li>
+                <li><a href="">
+                    <i class="wly">&#xe61b;</i>
+                    <span>违章查询</span>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="index-column6">
+        <div class="w1200">
+            <div class="index-column-tile">
+                <div class="left-line"></div>
+                <h2 class="title">园区风采</h2>
+                <div class="right-line"></div>
+            </div>
+
+            <div class="parkPic">
+                <div class="slide"><a href=""><img src="images/1.png"></a></div>
+                <div class="slide"><a href=""><img src="images/2.png"></a></div>
+                <div class="slide"><a href=""><img src="images/3.png"></a></div>
+                <div class="slide"><a href=""><img src="images/4.jpg"></a></div>
+                <div class="slide"><a href=""><img src="images/1.png"></a></div>
+                <div class="slide"><a href=""><img src="images/2.png"></a></div>
+                <div class="slide"><a href=""><img src="images/3.png"></a></div>
+                <div class="slide"><a href=""><img src="images/4.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-menu">
+            <div class="w1200">
+                <a href="">网站首页</a>
+                <span class="line">|</span>
+                <a href="">走进园区</a>
+                <span class="line">|</span>
+                <a href="">新闻中心</a>
+                <span class="line">|</span>
+                <a href="">政务公开</a>
+                <span class="line">|</span>
+                <a href="">招商引资</a>
+                <span class="line">|</span>
+                <a href="">企业之窗</a>
+                <span class="line">|</span>
+                <a href="">产业资讯</a>
+                <span class="line">|</span>
+                <a href="">物流服务</a>
+            </div>
+        </div>
+        <div class="footer-con">
+            <div class="w1200">
+                <h3 class="flink-title">政府网站导航：</h3>
+                <p class="flink-list"><a href="">中央人民政府上合组织</a><a href="">中央人民政府上合组织</a><a href="">中央人民政府上合组织</a><a href="">中央人民政府上合组织</a><a href="">中央人民政府上合组织</a><a href="">中央人民政府上合组织</a></p>
+                <p class="flink-select"><span>友情链接：</span>
+                    <select name="" id="">
+                        <option value="">--请选择--</option>
+                        <option value="">--请选择1--</option>
+                        <option value="">--请选择2--</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">--请选择--</option>
+                        <option value="">--请选择1--</option>
+                        <option value="">--请选择2--</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">--请选择--</option>
+                        <option value="">--请选择1--</option>
+                        <option value="">--请选择2--</option>
+                    </select>
+                </p>
+                <p class="copy-text">京公网安备 110105000722   地址：郑州市航海东路第八大街  传真：0371-60806886   客服中心电话：0371-60806880</p>
+                <p class="copy-text">主办：郑州市人民政府 版权所有   承办：郑州市国际物流园   京ICP备05060933号 </p>
+            </div>
+        </div>
+    </div>
+    <div id="elevator_item">
+        <a id="elevator" onclick="return false;" title="回到顶部"><i class="wly">&#xe637;</i></a>
+        <a class="qr"><i class="wly">&#xe658;</i></a>
+        <a class="mail"><i class="wly">&#xe601;</i></a>
+        <div class="qr-popup">
+            <a class="code-link"><img class="code" src="images/code.jpg"/></a>
+            <span>扫码访问移动端</span>
+            <div class="arr"></div>
+        </div>
+
+    </div>
+
 </body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/ckplayer/ckplayer.js" charset="utf-8"></script>
+<script src="js/common.js"></script>
 </html>
