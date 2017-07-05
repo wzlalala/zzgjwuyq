@@ -41,14 +41,6 @@ $(document).ready(function(){
         captions: true,
         pager:true
     });
-    var flashvars={
-        p:2,
-        c:0,
-        i:'http://www.ckplayer.com/static/images/cqdw.jpg'
-    };
-    var video=['http://img.ksbbs.com/asset/Mon_1605/0ec8cc80112a2d6.mp4->video/mp4'];
-    var support=['all'];
-    CKobject.embedHTML5('player','ckplayer_a1',510,320,video,flashvars,support);
 
 //    新闻中心
     $("#newsCenterTab a").mouseover(function(){
@@ -66,6 +58,14 @@ $(document).ready(function(){
         $(this).parent().parent().siblings().find('.box').hide();
         $(this).parent().parent().siblings().find('.box:eq('+index+')').show();
     })
+    //园区介绍
+$(".column-list li").click(function(){
+    $(".column-list li").removeClass('cur');
+    $(this).addClass('cur');
+    var index = $(this).attr('data-index');
+    $('.index-column2 .tab-box').hide();
+    $('.index-column2 .tab-box:eq('+index+')').show();
+})
 //返回顶端
     $(window).scroll(function(){
         var scrolltop=$(this).scrollTop();

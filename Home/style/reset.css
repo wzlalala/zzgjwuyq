@@ -110,3 +110,5 @@ body, button, input, select, textarea {
     font: 12px/1.5 tahoma,arial,'\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',sans-serif;
 }
 .w1200{width:1200px;margin-left:auto;margin-right:auto;}
+.fl{float:left;}
+.fr{float:right;}
