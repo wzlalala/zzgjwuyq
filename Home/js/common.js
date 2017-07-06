@@ -42,6 +42,7 @@ $(document).ready(function () {
         slideHeight: 466,
         mode: 'fade',
         captions: true,
+		auto: true,
         pager: true
     });
 
