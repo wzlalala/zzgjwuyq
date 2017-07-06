@@ -554,12 +554,12 @@ body {
   float: left;
 }
 .index-column4 .flash .con .wrap .show .new-list li {
-  width: 450px;
+  width: 920px;
   float: left;
   padding-top: 5px;
   border-bottom: 1px dashed #cdcdcd;
   padding-bottom: 5px;
-  height: 55px;
+  height: 30px;
   margin-left: 8px;
   margin-right: 8px;
 }
@@ -572,6 +572,9 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  width: 810px;
+  float: left;
+  height: 32px;
 }
 .index-column4 .flash .con .wrap .show .new-list li .title:hover {
   color: #0094de;
@@ -581,10 +584,12 @@ body {
   line-height: 24px;
   height: 24px;
   color: #999999;
+  width: 100px;
+  float: right;
   text-align: right;
 }
 .index-column4 .flash .con .wrap .moreBtn {
-  width: 450px;
+  width: 920px;
   height: 40px;
   background: #e2f2fb;
   display: block;
