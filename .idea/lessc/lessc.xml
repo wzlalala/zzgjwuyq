@@ -19,7 +19,24 @@
             </LessProfile>
           </value>
         </entry>
+        <entry key="1">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="D:\xampp\htdocs\zzgjwuyq\Wap\style" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="id" value="1" />
+              <option name="lessDirPath" value="D:\xampp\htdocs\zzgjwuyq\Wap\style" />
+              <option name="name" value="zzgjwap" />
+            </LessProfile>
+          </value>
+        </entry>
       </map>
     </option>
+    <option name="copyCssFiles" value="false" />
   </component>
 </project>

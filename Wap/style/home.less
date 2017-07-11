@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import "setting.less";
+html { -ms-touch-action: none;}
+body { font-family: Heiti, Heiti SC, DroidSans, DroidSansFallback, Arial, "Microsoft YaHei"; background-color: #efefef; }
+.head{
+  width:100%;
+  max-height:90px;
+  display: block;
+  text-align: center;
+  background:url("../images/1.png") repeat-x;
+  img{
+    height:auto;
+    max-width: 100%;
+  }
+}
+.slider{
+  max-width: 640px;
+  height:14rem;
+  background: #000000;
+  margin:0 auto;
+}
+.menu{
+  background: @themeColor01;
+  padding:0.3rem 0;
+  ul{width: 100%;float:left;}
+  li{width: 25%;height:2rem;line-height:2rem;text-align: center;
+    float:left;
+    a{
+      color:@fontColor04;
+      display: block;
+      font-size: .9rem;
+      position: relative;
+      .line{
+        position: absolute;
+        right:0;
+        top:.6rem;
+        display: block;
+        background:@divColor01;
+        height:.9rem;
+        width: 1px;
+      }
+
+    }
+  }
+}
+.box-menu{
+  width: 100%;
+  background: #fff;
+  ul{
+    width:100%;
+    float:left;
+    li{
+      width: 25%;
+      float:left;
+      text-align: center;
+
+      a{
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding:.8rem 0 .4rem;
+        .img{
+          width: 3rem;
+          height:3rem;
+          display: block;
+          border-radius:1.9rem;
+          text-align: center;
+          line-height:3rem;
+          margin:0 auto;
+          .wly{
+            color: #fff;
+            font-size:1.1rem;
+          }
+        }
+        .title{
+          color: @fontColor02;
+          line-height:2rem;
+          display: block;
+        }
+      }
+      &:nth-child(1) .img{
+       background: @divColor03;
+      }
+      &:nth-child(2) .img{
+        background: @divColor04;
+      }
+      &:nth-child(3) .img{
+        background: @divColor05;
+      }
+      &:nth-child(4) .img{
+        background: @divColor06;
+      }
+    }
+  }
+}
+.column-menu{
+  width: 100%;
+  height:286px;
+  background: url("../images/bg.jpg")no-repeat center top;
+  position: relative;
+  .menu1{
+    width: 48%;
+    height:30.769%;
+    position: absolute;
+    left:0.78125%;
+    top:1.74825%;
+    border:2px solid @themeColor02;
+    display: block;
+  }
+  .menu2{
+    width: 29.6875%;
+    height:30.769%;
+    position: absolute;
+    left:50.5629%;
+    top:1.74825%;
+    border:2px solid @themeColor02;
+    display: block;
+  }
+  .menu3{
+     width: 29.6875%;
+     height:30.769%;
+     position: absolute;
+     left:0.78125%;
+     top:34.2601%;
+     border:2px solid @themeColor02;
+     display: block;
+   }
+  .menu4{
+    width: 48%;
+    height:30.769%;
+    position: absolute;
+    left:0.78125%;
+    top:34.2601%;
+    border:2px solid @themeColor02;
+    display: block;
+  }
+}
