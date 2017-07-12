@@ -16,6 +16,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*多分辨率设定rem设定*/
+html { font-size :12px; }
+
+/*Note3*/
+@media only screen and (min-width: 360px) {
+  html { font-size: 14px !important; }
+}
+
+/*iPhone6*/
+@media only screen and (min-width: 376px) {
+  html { font-size:16px !important; }
+}
+
+/*iPhone6 plus*/
+@media only screen and (min-width: 414px) {
+  html { font-size: 16px !important; }
+}
+
+/*big Resolution*/
+@media only screen and (min-width: 641px) {
+  html { font-size: 18px !important; }
+}
+
 @themeColor01:#008ecc;
 @themeColor02:#0067ac;
 @themeColor03:#dff2fc;
@@ -25,6 +48,16 @@
 @fontColor02:#666666;
 @fontColor03:#bfbfbf;
 @fontColor04:#ffffff;
+@fontColor05:#333333;
+
+@fontColor06:#fe5b5c;
+@fontColor07:#8447ae;
+@fontColor08:#f08f7c;
+@fontColor09:#7cdfa8;
+@fontColor10:#6caae3;
+@fontColor11:#ff6e39;
+@fontColor12:#d0a37a;
+
 @divColor01:#ffffff;
 @divColor02:#e7e7e7;
 @divColor03:#ee4544;
