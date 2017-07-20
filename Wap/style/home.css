@@ -536,6 +536,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: #0067ac;
+  padding-bottom: .8rem;
+  margin-top: .8rem;
 }
 .foot dl {
   padding: .8rem .4rem .4rem;
@@ -649,4 +651,73 @@ body {
   position: absolute;
   right: -6px;
   bottom: 14px;
+}
+.head-nav {
+  position: relative;
+  background: #0067ac;
+  padding: .2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+}
+.head-nav .title {
+  color: #ffffff;
+  font-size: 1.15rem;
+  text-align: center;
+  font-weight: normal;
+  padding: .6rem 0;
+  line-height: 2rem;
+  height: 2rem;
+}
+.head-nav .home-btn {
+  position: absolute;
+  left: .7rem;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  display: block;
+  top: .4rem;
+}
+.head-nav .home-btn .wly {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+.site-nav {
+  padding: .7rem .7rem 0;
+  display: block;
+}
+.site-nav .site-nav-title {
+  height: 2.4rem;
+  display: block;
+}
+.site-nav .site-nav-title h2 {
+  width: 12rem;
+  height: 2.4rem;
+  background-image: url("../images/title-bg.png");
+  background-size: cover;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  text-indent: 20px;
+  position: absolute;
+  font-weight: normal;
+}
+.site-nav .site-nav-con {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  padding: .6rem .6rem;
+}
+.site-nav .site-nav-con a {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 2.2rem;
+  height: 2.2rem;
+  width: 33%;
+  float: left;
+  overflow: hidden;
+  color: #666666;
+}
+.site-nav .site-nav-con a.cur {
+  color: #ea0000;
 }

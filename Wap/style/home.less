@@ -451,6 +451,8 @@ body { font-family: Heiti, Heiti SC, DroidSans, DroidSansFallback, Arial, "Micro
   margin-left:auto;
   margin-right:auto;
   background:@themeColor02;
+  padding-bottom:.8rem;
+  margin-top:.8rem;
   dl{
     padding:.8rem .4rem .4rem;
     dt{
@@ -557,6 +559,77 @@ body { font-family: Heiti, Heiti SC, DroidSans, DroidSansFallback, Arial, "Micro
       position: absolute;
       right: -6px;
       bottom: 14px
+    }
+  }
+}
+
+
+.head-nav{
+  position: relative;
+    .title{
+      color:@fontColor04;
+      font-size:1.15rem;
+      text-align: center;
+      font-weight: normal;
+      padding:.6rem 0;
+      line-height:2rem;
+      height:2rem;
+    }
+    .home-btn{
+      position: absolute;
+      left:.7rem;
+      height:3rem;
+      width:3rem;
+      text-align: center;
+      line-height:3rem;
+      display: block;
+      top:.4rem;
+      .wly{
+        color:@fontColor04;
+        font-size: 1.8rem;
+      }
+    }
+    background:@themeColor02;
+    padding:.2rem 0;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 640px;
+}
+.site-nav{
+  padding:.7rem .7rem 0;
+  display: block;
+  .site-nav-title{
+    height:2.4rem;
+    display: block;
+    h2{
+      width:12rem;
+      height:2.4rem;
+      background-image: url("../images/title-bg.png");
+      background-size:cover;
+      color:@fontColor04;
+      font-size:1.2rem;
+      line-height:2.4rem;
+      text-indent: 20px;
+      position: absolute;
+      font-weight: normal;
+    }
+  }
+  .site-nav-con{
+    background:@themeColor05;
+    border:1px solid @divColor02;
+    padding:.6rem .6rem;
+    a{
+      display: block;
+      font-size:1.05rem;
+      line-height:2.2rem;
+      height:2.2rem;
+      width: 33%;
+      float:left;
+      overflow: hidden;
+      color:@fontColor02;
+      &.cur{
+        color:@themeColor04;
+      }
     }
   }
 }
